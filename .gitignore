@@ -1,0 +1,17 @@
+# Compiled Java classes (rebuilt with javac)
+*.class
+
+# Files the program creates while it runs (your data, not source code)
+students.txt
+students.txt.bak
+students.txt.tmp
+students.txt.corrupt
+students.csv
+login.txt
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
