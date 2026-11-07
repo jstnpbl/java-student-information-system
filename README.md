@@ -178,8 +178,3 @@ StudentInfoSystem.java   The menu, all features, saving and loading
 - The screen is cleared with `cls` on Windows and a standard terminal code elsewhere.
 - In the CSV export, Excel may display IDs like `2026-001` as dates. If so, import through **Data → From Text/CSV** and set that column to **Text**. Also, a name starting with `=`, `+`, `-`, or `@` would be treated as a formula by Excel.
 - Typing accented characters into some Command Prompt windows may need `chcp 65001` first. The data files themselves are UTF-8.
-
-## Ideas for later
-
-- A graphical interface (Swing) on top of the same `Student` class and data file
-- Enrollment status, fees, and receipts
